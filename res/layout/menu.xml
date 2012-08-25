@@ -12,14 +12,6 @@
         android:src="@drawable/lightbulb" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="48dp"
-        android:text="Local Community Service" />
-
-    <Button
         android:id="@+id/bGenerator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,5 +53,13 @@
         android:text="Your Options..."
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/bLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Local Community Service" />
 
 </RelativeLayout>

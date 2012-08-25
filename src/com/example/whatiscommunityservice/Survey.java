@@ -17,9 +17,9 @@ public class Survey extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.match);
 		complete = (Button) findViewById(R.id.bCompleteForm);
 		complete.setOnClickListener(this);
-		setContentView(R.layout.match);
 		setUpTabs();
 	}
 

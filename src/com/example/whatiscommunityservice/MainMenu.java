@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainMenu extends Activity implements OnClickListener {
 
-	public Button idea, survey;
+	public Button idea, survey, local, options;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +18,21 @@ public class MainMenu extends Activity implements OnClickListener {
 		setContentView(R.layout.menu);
 		idea = (Button) findViewById(R.id.bGenerator);
 		survey = (Button) findViewById(R.id.bMatching);
+		local = (Button) findViewById(R.id.bLocal);
 		idea.setOnClickListener(this);
 		survey.setOnClickListener(this);
+		local.setOnClickListener(this);
 
 	}
 
-	public void onClick(View arg0) {
+	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		switch (arg0.getId()) {
+		switch (v.getId()) {
+		
+		case R.id.bLocal:
+			Intent Local = new Intent(this, Local.class);
+			startActivity(Local);
+			break;
 
 		case R.id.bGenerator:
 			Intent genScreen = new Intent(this, IdeaGenerator.class);
@@ -34,8 +41,9 @@ public class MainMenu extends Activity implements OnClickListener {
 		case R.id.bMatching:
 			Intent findMatch = new Intent(this, Survey.class);
 			startActivity(findMatch);
+			break;
+			
 
 		}
-
 	}
 }

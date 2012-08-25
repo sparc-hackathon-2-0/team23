@@ -32,6 +32,10 @@
             android:name=".Survey"
             android:label="@string/title_activity_community_service" >
         </activity>
+        <activity
+            android:name=".Local"
+            android:label="@string/title_activity_community_service" >
+        </activity>
     </application>
 
 </manifest>

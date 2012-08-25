@@ -19,17 +19,20 @@ public final class R {
         public static final int match=0x7f020005;
     }
     public static final class id {
-        public static final int bCompleteForm=0x7f070020;
+        public static final int bCompleteForm=0x7f070023;
         public static final int bGenerate=0x7f070014;
-        public static final int bGenerator=0x7f07001c;
-        public static final int bMatching=0x7f07001d;
+        public static final int bGenerator=0x7f07001e;
+        public static final int bLocal=0x7f07001d;
+        public static final int bLook=0x7f070018;
+        public static final int bMatching=0x7f070020;
         public static final int bStart=0x7f070002;
         public static final int button1=0x7f070016;
-        public static final int button3=0x7f07001b;
+        public static final int button3=0x7f07001f;
+        public static final int etCity=0x7f070017;
         public static final int imageView1=0x7f070001;
-        public static final int imageView2=0x7f07001f;
-        public static final int imageView3=0x7f07001e;
-        public static final int menu_settings=0x7f070021;
+        public static final int imageView2=0x7f070022;
+        public static final int imageView3=0x7f070021;
+        public static final int menu_settings=0x7f070024;
         public static final int radio0=0x7f070005;
         public static final int radio1=0x7f070006;
         public static final int radio10=0x7f070012;
@@ -45,10 +48,10 @@ public final class R {
         public static final int radioGroup1=0x7f070004;
         public static final int radioGroup2=0x7f070009;
         public static final int radioGroup3=0x7f07000f;
-        public static final int tab1=0x7f070018;
-        public static final int tab2=0x7f070019;
-        public static final int tab3=0x7f07001a;
-        public static final int tabhost=0x7f070017;
+        public static final int tab1=0x7f07001a;
+        public static final int tab2=0x7f07001b;
+        public static final int tab3=0x7f07001c;
+        public static final int tabhost=0x7f070019;
         public static final int textView1=0x7f070000;
         public static final int textView2=0x7f070003;
         public static final int textView3=0x7f07000e;
@@ -59,9 +62,10 @@ public final class R {
         public static final int color=0x7f030001;
         public static final int food=0x7f030002;
         public static final int ideas=0x7f030003;
-        public static final int match=0x7f030004;
-        public static final int menu=0x7f030005;
-        public static final int sparetime=0x7f030006;
+        public static final int localoptions=0x7f030004;
+        public static final int match=0x7f030005;
+        public static final int menu=0x7f030006;
+        public static final int sparetime=0x7f030007;
     }
     public static final class menu {
         public static final int activity_community_service=0x7f060000;
