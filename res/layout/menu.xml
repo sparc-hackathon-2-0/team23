@@ -17,15 +17,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:text="Idea Generator" />
-
-    <Button
-        android:id="@+id/bMatching"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button1"
-        android:layout_alignParentRight="true"
-        android:text="Community Service Matching" />
+        android:text="Idea Generator"
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -44,22 +37,49 @@
         android:src="@drawable/match" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="143dp"
-        android:text="Your Options..."
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="24dp"
+        android:text="Good Luck You&apos;re Going to Need It..."
         android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/bTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Track Your Progress Here Dummy"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/bLocal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:text="Local Community Service"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bMatching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="Local Community Service" />
+        android:text="Community Service Matching"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignLeft="@+id/bTrack"
+        android:text="Your Options..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
 
 </RelativeLayout>
